@@ -5,7 +5,7 @@ import Steps.Xpath.Elements.ElementDatePicker;
 import Steps.css.cssPage.PageButtons;
 import Steps.css.cssPage.PageWebTables;
 
-public interface IAll {
+public interface EVE {
 
     PageWebTables webTables= new PageWebTables();
     PageButtons pageButtons = new PageButtons();
