@@ -17,7 +17,6 @@ public class PageMenu {
     @Step("Перейти с домашней страницы на страницу \"Menu\"")
     public void transitionMenu(){
         widgets.click();
-        //Иногда не открываеться в нужном разрешении, прокрутка для перестраховки
         leftPanel.scrollIntoView(false);
         menu.click();
     }
