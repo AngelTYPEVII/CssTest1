@@ -78,7 +78,7 @@ public class PageForms {
         if (!Objects.equals(arg2, ""))
             $(By.xpath("//label[.='"+arg2+"']")).click();
     }
-    @Step("Загрузка аватара")
+    @Step("Загрузка фото")
     public void avatarUpload(){
         uploadPicture.uploadFileInput(file);
     }

@@ -45,7 +45,7 @@ public class PageWebTables {
     public void inputUserAge(int  userAge){
         age.setValueInput(String.valueOf(userAge));
     }
-    @Step("Ввод зарплвты")
+    @Step("Ввод зарплаты")
     public void inputSalary(int userSalary){
         salary.setValueInput(String.valueOf(userSalary));
     }
