@@ -18,10 +18,7 @@ public class PageTextBox {
     private final TextArea currentAddress = new TextArea("currentAddress");
     private final TextArea permanentAddress = new TextArea("permanentAddress");
     private final Button btnSubmit = new Button("submit");
-    private final P checkName =new P("name");
-    private final P checkEmail = new P("email");
-    private final P checkCurrentAddress = new P("currentAddress");
-    private final P checkPermanentAddress = new P("permanentAddress");
+
 
     @Step("Перейти с домашней страницы на страницу \"Text Box\"")
     public void transitionTextBox() {
@@ -48,12 +45,5 @@ public class PageTextBox {
     @Step("Кликнуть на  кнопку \"Submit\"")
     public void submit(){
         btnSubmit.clickBtn();
-    }
-    @Step("Проверка введёной информации")
-    public void checkInfo(Person person){
-        checkName.checkTextP(person.getName());
-        checkEmail.checkTextP(person.getEmail());
-        checkCurrentAddress.checkTextP(person.getCurrentAddress());
-        checkPermanentAddress.checkTextP(person.getPermanentAddress());
     }
 }

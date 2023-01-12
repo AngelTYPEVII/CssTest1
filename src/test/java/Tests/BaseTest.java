@@ -1,6 +1,6 @@
 package Tests;
 
-import Interfasces.EVE1;
+import Interfaces.EVE1;
 import com.codeborne.selenide.Configuration;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;

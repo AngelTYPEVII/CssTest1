@@ -1,4 +1,4 @@
-package Interfasces;
+package Interfaces;
 
 import Steps.Xpath.Page.*;
 import Steps.Xpath.Elements.ElementDatePicker;

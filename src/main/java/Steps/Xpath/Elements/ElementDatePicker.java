@@ -23,7 +23,7 @@ public class ElementDatePicker {
 
         while (dateAndTimePickerInput.getValueInput().length()>0)
             dateAndTimePickerInput.sendKeysBackSpaseInput();
-        //Ввод даты
+
         dateAndTimePickerInput.setValueInput(date);
         dateAndTimePickerInput.sendKeysEnterInput();
         dateAndTimePickerInput.checkTextInput(expected);
