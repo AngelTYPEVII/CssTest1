@@ -49,7 +49,7 @@ public class PageWebTables {
     public void inputSalary(int userSalary){
         salary.setValueInput(String.valueOf(userSalary));
     }
-    @Step("Ввод департаминта")
+    @Step("Ввод департамента")
     public void inputDepartment(String userDepartment){
         department.setValueInput(String.valueOf(userDepartment));
     }
